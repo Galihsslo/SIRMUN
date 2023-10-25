@@ -1,0 +1,13 @@
+/* Reset margin dan padding halaman */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Membuat wadah peta setengah dari lebar halaman web */
+.map-container {
+    width: 50%;
+    height: 100vh; /* Tinggi sesuai dengan tinggi layar (viewport) */
+    float: left; /* Membuat wadah berdampingan dengan elemen lain jika diperlukan */
+    /* Anda dapat menambahkan properti CSS lainnya sesuai kebutuhan */
+}
